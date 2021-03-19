@@ -18,6 +18,7 @@ const Nav = styled.nav`
   font-size: 1.1rem;
   align-items: center;
   margin-top: -20px;
+  white-space: nowrap;
   a {
     color: ${props => props.theme.colors.white.base};
     margin-left: 2rem;
@@ -34,9 +35,9 @@ const NavBar = () => (
       <img src={logo} alt="Mozhinka Logo" />
     </StyledLink>
     <Nav>
-      <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
+      <Link to="/">ДОМ</Link>
+      <Link to="/blog">БЛОГ</Link>
+      <Link to="/about">О НАС</Link>
     </Nav>
   </Headroom>
 );

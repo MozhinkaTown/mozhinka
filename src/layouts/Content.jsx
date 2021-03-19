@@ -33,6 +33,7 @@ const Wrapper = styled.div`
     margin-top: 3rem;
   }
   h2 {
+    text-align:center;
     margin-top: 1rem;
   }
   h1,

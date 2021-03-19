@@ -3,8 +3,8 @@ module.exports = {
   title: 'Мозжинка', // Navigation and Site Title
   titleAlt: 'Мозжинка', // Title for JSONLD
   description: 'Поселок Мозжинка',
-  url: 'https://gatsby-tutorial-starter.netlify.com', // Domain of your site. No trailing slash!
-  siteUrl: 'https://gatsby-tutorial-starter.netlify.com', // url + pathPrefix
+  url: 'https://mozhinka.netlify.app', // Domain of your site. No trailing slash!
+  siteUrl: 'https://mozhinka.netlify.app', // url + pathPrefix
   siteLanguage: 'Ru', // Language Tag on <html> element
   logo: 'static/logo/logo.png', // Used for SEO
   banner: 'static/logo/banner.png',
