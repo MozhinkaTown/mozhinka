@@ -17,6 +17,7 @@ const Nav = styled.nav`
   font-weight: 500;
   font-size: 1.1rem;
   align-items: center;
+  margin-top: -20px;
   a {
     color: ${props => props.theme.colors.white.base};
     margin-left: 2rem;
@@ -30,7 +31,7 @@ const Nav = styled.nav`
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
     <StyledLink to="/">
-      <img src={logo} alt="Gatsby Logo" />
+      <img src={logo} alt="Mozhinka Logo" />
     </StyledLink>
     <Nav>
       <Link to="/">Home</Link>

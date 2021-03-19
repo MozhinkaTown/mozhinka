@@ -51,6 +51,8 @@ const Layout = ({ children }) => (
             color: ${theme.colors.linkHover};
           }
           h1 {
+            margin-top:6rem;
+            font-weight: 700;
             font-family: ${theme.fontFamily.heading};
           }
 
